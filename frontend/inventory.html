@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Inventory</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="page">
+
+<h2>Inventory Management</h2>
+
+<div class="form">
+<input id="productId" placeholder="Product ID">
+<input id="stock" placeholder="Stock Quantity">
+
+<button onclick="addInventory()">Add Inventory</button>
+</div>
+
+<h3>Inventory List</h3>
+
+<table>
+<thead>
+<tr>
+<th>Product ID</th>
+<th>Product</th>
+<th>Stock Quantity</th>
+</tr>
+</thead>
+
+<tbody id="inventoryList">
+</tbody>
+</table>
+
+<a href="index.html" class="backBtn">Back</a>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>

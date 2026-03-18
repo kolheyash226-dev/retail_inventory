@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Orders</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="page">
+
+<h2>Order Management</h2>
+
+<div class="form">
+<input id="customer" placeholder="Customer Name">
+<input id="product" placeholder="Product ID">
+<input id="quantity" placeholder="Quantity">
+
+<button onclick="createOrder()">Create Order</button>
+</div>
+
+<h3>Orders</h3>
+
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Customer</th>
+<th>Product ID</th>
+<th>Quantity</th>
+<th>Order</th>
+</tr>
+</thead>
+
+<tbody id="orderList">
+</tbody>
+</table>
+
+<a href="index.html" class="backBtn">Back</a>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
